@@ -8,7 +8,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  autogreen:
+  autocommit:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
